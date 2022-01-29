@@ -9,7 +9,7 @@ function Item({ name, category }) {
   }
 
   const cart = inCart ? "in-cart" : "";
-  const addCart = inCart ? "Remove from cart" : "Add to cart";
+  const addCart = inCart ? "Remove from Cart" : "Add to Cart";
   const cartButton = inCart ? "remove" : "add"
 
     return (
